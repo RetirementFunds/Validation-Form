@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Week 7 Lab</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="week7.js" defer></script>
+
+</head>
+
+<body>
+
+    <div id="form">
+        
+        <form name="info">
+            <p>
+            <label for="first-name" id="first-name-label">First Name</label> <br />
+            <input type="text" id="first-name"/> <span id="fn-error" aria-live="polite"></span>
+            </p>
+            
+            <p>
+            <label for="last-name" id="last-name-label">Last Name</label> <br />
+            <input type="text" id="last-name"/> <span id="ln-error" aria-live="polite"></span>
+            </p>
+            
+            <p>
+            <label for="email" id="email-label">Email</label> <br />
+            <input type="text" id="email"/> <span id="email-error" aria-live="polite"></span>
+            </p>
+
+            <p>
+            <label for="confirm-email" id="confirm-email-label">Confirm Email</label> <br />
+            <input type="text" id="confirm-email"/> <span id="confirm-email-error" aria-live="polite"></span>
+            </p>
+            
+            <p>
+            <label for="phone" id="phone-label">Phone Number</label> <br />
+            <input type="text" id="phone"/> <span id="phone-error" aria-live="polite"></span>
+            </p>
+            
+            <input type="submit" value="Submit" />
+        </form>
+
+    </div>
+
+    <div id="confirmation">
+        <h1>Confirmation</h1>
+        <p id="info">
+        </p>
+    </div>
+
+</body>
+</html>
